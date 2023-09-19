@@ -1,25 +1,24 @@
 # Título do Projeto
 
-`CURSO`
+`CURSO` Análise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`
 
-`SEMESTRE`
+`SEMESTRE` Eixo 1
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Sistema onde é possível é reduzir o desperdício de alimentos, conectando estabelecimentos, como supermercados, restaurantes e padarias, com pessoas que estejam precisando desses alimentos. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Allan Antônio
+* Helena de Souza Lima
+* Lucas Eduardo Martins Alves
+* Luiz Gustavo Macedo de Moraes Filho
+* Renan Azevedo Oliveira
 
 ## Orientador
 
-* Nome completo do professor
+* Nathalia Assis Valentim
 
 # Documentação
 
@@ -37,7 +36,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* Insira o endereço eletrônico público de acesso ao conteúdo publicado.
 
 # Código-Fonte
 
