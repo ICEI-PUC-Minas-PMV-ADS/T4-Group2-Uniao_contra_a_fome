@@ -9,7 +9,6 @@ A figura 1 mostra como seria o fluxo de usuário pelas telas do site criado. As 
 
 Figura 1 - Fluxo de Usuário
 
-## Protótipo
 
 
 ## Protótipo de baixa fidelidade
