@@ -63,9 +63,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Documentos do Projeto               | GitHub                             |                          |
+| Documentos do Projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-group_2|
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/ZoRkxIWumGB1vM7C28hf6t/Projeto-Eixo-1-(Etapa-2)?type=design&node-id=32%3A9&mode=design&t=WrS5TTffv2z8UViG-1|
-| Gerenciamento do Projeto            | Trello                             | https://trello.com/b/MdfiHZfm                           |
+| Gerenciamento do Projeto            | Trello                             | https://trello.com/b/MdfiHZfm|
            |
 
 
