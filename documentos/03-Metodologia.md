@@ -63,11 +63,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
+| Documentos do Projeto               | GitHub                             |                          |
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/ZoRkxIWumGB1vM7C28hf6t/Projeto-Eixo-1-(Etapa-2)?type=design&node-id=32%3A9&mode=design&t=WrS5TTffv2z8UViG-1|
-| Gerenciamento do Projeto            | Trello                             | https://trello.com/b/lWNc4aBH                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Gerenciamento do Projeto            | Trello                             | https://trello.com/b/MdfiHZfm                           |
+           |
 
 
 ### Estratégia de Organização de Codificação 
