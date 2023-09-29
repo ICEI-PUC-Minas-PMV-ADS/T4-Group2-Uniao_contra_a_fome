@@ -21,7 +21,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 ### Processo
 A ferramenta de gerenciamento do projeto utilizada pela equipe é o Trello. O quadro Kanban abaixo apresenta a seguinte estrutura: 
 
-
+[Kanban!](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-group_2/blob/main/documentos/img/Trello%202.0.png)
 
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
