@@ -4,19 +4,34 @@
 ## User Flow
 
 A figura 1 mostra como seria o fluxo de usuário pelas telas do site criado. As telas serão detalhadas posteriormente na parte "Protótipo de baixa qualidade".
-![Untitled Diagram-Page-1 drawio (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-group_2/blob/main/documentos/img/UserFlow.png);
+
+![UserFlow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-group_2/blob/main/documentos/img/UserFlow.png)
+
 Figura 1 - Fluxo de Usuário
 
 ## Protótipo
 
 
-### Protótipo de baixa fidelidade
+## Protótipo de baixa fidelidade
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+Cada tela do sistema apresentam em comum a seguinte estrutura:
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+![Prototipo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-group_2/blob/main/documentos/img/PrototipoBaixaQualidade.png)
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
+Onde o _Cabeçalho_ apresenta a logo e o menu para se redirecionar a outras telas, e o _Conteúdo_, que apresenta as espcificações de cada tela.
+
+### Tela Inicial
+
+### Tela de Cadastro
+
+### Tela de Login
+
+### Página inicial
+
+### Página "Como funciona"
+
+### Página "Sobre Nós"
+
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
