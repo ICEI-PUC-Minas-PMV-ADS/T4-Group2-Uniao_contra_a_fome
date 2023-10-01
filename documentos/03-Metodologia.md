@@ -23,10 +23,10 @@ A ferramenta de gerenciamento do projeto utilizada pela equipe é o Trello. O qu
 
 ![Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-group_2/blob/main/documentos/img/Trello%202.0.png)
 
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- Backlog: Recebe as tarefas a serem realizadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto serão incorporadas a esta lista. 
+- To Do: Esta lista representa o Sprint Backlog, no qual estamos trabalhando. 
+- Doing: Quando uma tarefa for iniciada, ela será movida para este local.
+- Done: Nesta lista, são incluídas as tarefas aprovadas pelos testes e controle de qualidade e estão prontas para serem entregues ao usuário, inexistindo edições ou revisões necessárias.
 
 
 
