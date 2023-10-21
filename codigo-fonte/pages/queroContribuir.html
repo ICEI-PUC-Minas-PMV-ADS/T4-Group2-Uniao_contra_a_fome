@@ -1,11 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quero contribuir</title>
-</head>
-<body>
-  <p>quero contribuir</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quero contribuir</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar bg-success">
+      <div class="container-fluid justify-content-center">
+        <span class="navbar-text"> União contra a Fome </span>
+      </div>
+    </nav>
+
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active text-success" href="index.html"
+          >Voltar a tela inicial</a
+        >
+      </li>
+    </ul>
+
+    <div class="container-fluid text-center">
+      <h1>Crie sua Conta!</h1>
+
+      <div class="d-flex justify-content-around">
+        <div class="">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="">
+              <div class="card shadow-2-strong" style="border-radius: 1rem">
+                <div class="card-body p-5">
+                  <h3 class="mb-5 text-center">Quero Ajudar</h3>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typeEmailX-3">E-mail</label>
+                    <input
+                      type="email"
+                      id="typeEmailX-3"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typeUser-3">Nome de Usuário</label>
+                    <input
+                      type="text"
+                      id="typeUser-3"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typePasswordX-3">Senha</label>
+                    <input
+                      type="password"
+                      id="typePasswordX-3"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+
+                  <div class="text-center">
+                    <button
+                      onclick="queroAjudar()"
+                      class="btn btn-dark btn-lg btn-block"
+                      type="submit"
+                    >
+                      Entrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" py-5 h-100 bg">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="">
+              <div class="card shadow-2-strong" style="border-radius: 1rem">
+                <div class="card-body p-5">
+                  <h3 class="mb-5 text-center">Preciso de Ajuda</h3>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typeEmailX-4">E-mail</label>
+                    <input
+                      type="email"
+                      id="typeEmailX-4"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typeUser-4">Nome de Usuário</label>
+                    <input
+                      type="text"
+                      id="typeUser-4"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typePasswordX-4">Senha</label>
+                    <input
+                      type="password"
+                      id="typePasswordX-4"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+
+                  <div class="text-center">
+                    <button
+                      onclick="precisoAjuda()"
+                      class="btn btn-dark btn-lg btn-block"
+                      type="submit"
+                    >
+                      Entrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active text-success" href="login.html"
+            >Já tem uma conta? Clique aqui!</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- Importa as funções JS -->
+    <script src="../js/queroContribuir.js"></script>
+  </body>
 </html>
