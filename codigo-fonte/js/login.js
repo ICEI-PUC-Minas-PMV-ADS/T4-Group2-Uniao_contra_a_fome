@@ -11,6 +11,7 @@ function entrarBtn(e) {
   } else if (!senha.value) {
     alert("Senha precisa ser informada")
   } else {
+    localStorage.setItem('Token', 'logado')
     window.location.href = "../pages/principal.html"
   }
 }
