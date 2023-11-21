@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Principal</title>
-</head>
-<body>
-  <p>Principal</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principal</title>
+    <!-- Link para adicionar o Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- importa os icones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <!-- importa estilos css -->
+    <link rel="stylesheet" href="../styles/index.css" />
+    <script>
+      const token = localStorage.getItem('Token');
+      if (!token) window.location.href = '../pages/login.html';
+    </script>
+    <script src="../js/principal.js"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-success">
+      <div class="container-fluid justify-content-center">
+        <img
+          src="../public/images/União_Contra_A-removebg-preview.png"
+          class="rounded mx-auto d-block"
+          alt="Logo-Prato"
+          width="180 px"
+        />
+      </div>
+    </nav>
+
+    <div id="main" class="container-fluid"></div>
+
+    <script type="module">
+      const { data } = await fetchCompanies();
+      console.log(data);
+      data.map((company) => {
+        const divMain = document.getElementById('main')
+        const firstDiv = document.createElement('div')
+        firstDiv.setAttribute('class', 'card')
+
+        const imgEl = document.createElement('img')
+        imgEl.setAttribute('src', company.image)
+        imgEl.setAttribute('class', 'card-img-top')
+        imgEl.setAttribute('alt', company.name)
+        firstDiv.appendChild(imgEl)
+
+        const secondDiv = document.createElement('div')
+        secondDiv.setAttribute('class', 'card-body')
+
+        const h5El = document.createElement('h5')
+        h5El.setAttribute('class', 'card-title')
+        h5El.innerText = 'Nome da empresa: ' + company.name
+        secondDiv.appendChild(h5El)
+
+        firstDiv.appendChild(secondDiv)
+
+        divMain.appendChild(firstDiv)
+      })
+    </script>
+  </body>
 </html>
