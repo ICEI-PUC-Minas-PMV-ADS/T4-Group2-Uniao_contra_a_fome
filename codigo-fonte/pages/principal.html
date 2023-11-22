@@ -20,10 +20,14 @@
 
     <!-- importa estilos css -->
     <link rel="stylesheet" href="../styles/index.css" />
+
+    <!-- Verifica se usuário está logado -->
     <script>
       const token = localStorage.getItem('Token');
       if (!token) window.location.href = '../pages/login.html';
     </script>
+
+    <!-- importa js -->
     <script src="../js/principal.js"></script>
   </head>
   <body>
@@ -38,34 +42,48 @@
       </div>
     </nav>
 
-    <div id="main" class="container-fluid"></div>
+    <div
+      id="main"
+      class="container-fluid d-flex justify-content-evenly flex-wrap"
+    ></div>
 
     <script type="module">
       const { data } = await fetchCompanies();
-      console.log(data);
       data.map((company) => {
-        const divMain = document.getElementById('main')
-        const firstDiv = document.createElement('div')
-        firstDiv.setAttribute('class', 'card')
+        const divMain = document.getElementById('main');
+        const firstDiv = document.createElement('div');
+        firstDiv.setAttribute('class', 'card');
+        firstDiv.setAttribute('style', 'width: 18rem');
 
-        const imgEl = document.createElement('img')
-        imgEl.setAttribute('src', company.image)
-        imgEl.setAttribute('class', 'card-img-top')
-        imgEl.setAttribute('alt', company.name)
-        firstDiv.appendChild(imgEl)
+        const imgEl = document.createElement('img');
+        imgEl.setAttribute('src', company.image);
+        imgEl.setAttribute('class', 'card-img-top');
+        imgEl.setAttribute('alt', company.name);
+        firstDiv.appendChild(imgEl);
 
-        const secondDiv = document.createElement('div')
-        secondDiv.setAttribute('class', 'card-body')
+        const secondDiv = document.createElement('div');
+        secondDiv.setAttribute('class', 'card-body');
 
-        const h5El = document.createElement('h5')
-        h5El.setAttribute('class', 'card-title')
-        h5El.innerText = 'Nome da empresa: ' + company.name
-        secondDiv.appendChild(h5El)
+        const h5El = document.createElement('h5');
+        h5El.setAttribute('class', 'card-title');
+        h5El.innerText = 'Nome da empresa: ' + company.name;
+        secondDiv.appendChild(h5El);
 
-        firstDiv.appendChild(secondDiv)
+        const pEl = document.createElement('p');
+        pEl.setAttribute('class', 'card-text');
+        pEl.innerText =
+          'Informações de contato: ' +
+          company?.contact?.firstname +
+          ' ' +
+          company?.contact?.lastname +
+          ', ' +
+          company?.contact?.email;
+        secondDiv.appendChild(pEl);
 
-        divMain.appendChild(firstDiv)
-      })
+        firstDiv.appendChild(secondDiv);
+
+        divMain.appendChild(firstDiv);
+      });
     </script>
   </body>
 </html>
