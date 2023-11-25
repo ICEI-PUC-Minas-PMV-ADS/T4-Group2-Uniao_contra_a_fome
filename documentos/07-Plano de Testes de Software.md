@@ -2,11 +2,11 @@
 
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir: 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT-1 - Cadastro de novo usuário|
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
+| Requisitos Associados | RF- |
+| Objetivo do Teste | Permitir que o usuário, seja empresário ou representante do Terceiro Setor, efetue o cadastro no sistema |
+| Passos | a) Na página inicial, clicar em "Quero Contribuir" localizado na barra lateral direita; b) Em "Quero Ajudar", inserir e-mail, nome de usuário e senha válidos |
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
  
