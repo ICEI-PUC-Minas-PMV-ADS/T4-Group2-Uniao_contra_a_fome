@@ -1,8 +1,7 @@
 # Plano de Testes de Software
 
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
-
+Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
 | Requisitos Associados | RF-X |
