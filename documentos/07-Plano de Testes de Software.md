@@ -4,12 +4,11 @@
 Os testes funcionais a serem realizados na aplicação são descritos a seguir: 
 |Caso de Teste    | CT-1 - Cadastro de novo usuário|
 |:---|:---|
-| Requisitos Associados | RF- |
-| Objetivo do Teste | Permitir que o usuário, seja empresário ou representante do Terceiro Setor, efetue o cadastro no sistema |
+| Requisitos Associados | RF-  |
+| Objetivo do Teste | Permitir que o usuário, seja empresário(a) ou representante do Terceiro Setor, efetue o cadastro no sistema |
 | Passos | a) Na página inicial, clicar em "Quero Contribuir" localizado na barra lateral direita; b) Em "Quero Ajudar", inserir e-mail, nome de usuário e senha válidos |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
- 
+| Critérios de êxito | O cadastro do usuário será efetivado  |
+
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
