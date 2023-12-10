@@ -1,0 +1,405 @@
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #e6e6e6;
+  overflow-x: hidden;
+}
+
+/*
+**** Layout ****
+*/
+#header {
+  background-color: #72c27f;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo,
+.nav {
+  padding: 10px;
+}
+
+#area-principal {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#area-postagens {
+  width: 70%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#area-lateral {
+  width: 27%;
+  float: right;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.conteudo-lateral {
+  background: white;
+  padding: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  margin-right: 20px;
+}
+
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 15px;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+  border-radius: 4px;
+  width: 100%;
+  bottom: 0px;
+}
+
+/*
+**** Formatação do menu ****
+*/
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #72c27f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#header a:link,
+#header a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+
+#header a:hover {
+  color: #72c27f;
+  background: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #72c27f;
+}
+
+h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+}
+
+.branco {
+  color: white;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.Logo-png {
+  height: 170px;
+  width: 170px;
+  margin-bottom: -80px;
+  padding: 20px;
+  margin-top: -70px;
+}
+
+.conteudo-lateral h3 {
+  margin-bottom: 10px;
+}
+
+.icons {
+  margin: 5px;
+}
+
+.banner-uniao {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #023047;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 40px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+  margin-bottom: 60px;
+}
+
+.areaLogin img {
+  width: 420px;
+}
+
+.formLogin h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.3em;
+}
+
+.formLogin p {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.formLogin input {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.formLogin input:focus {
+  border: 1px solid #72c27f;
+}
+
+.formLogin label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formLogin a {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #555;
+  transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+  color: #72c27f;
+}
+
+.btn {
+  background-color: #72c27f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  transition: all linear 160ms;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #72c27f;
+}
+.butto {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.butn {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 15px 5px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #456a29;
+  transition: 0.3s;
+}
+.but {
+  position: absolute;
+  bottom: 0px;
+  right: 90px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #72c27f;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+}
+
+.butn:hover {
+  background-color: white;
+  color: #456a29;
+}
+.but:hover {
+  border: 1px solid #456a29;
+  background-color: white;
+  color: #456a29;
+}
+
+.postagem img {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.hamburger {
+  display: none;
+  border: none;
+  background: none;
+  border-top: 3px solid #fff;
+  cursor: pointer;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin-top: 5px;
+}
+
+@media (max-width: 850px) {
+  .hamburger {
+    display: block;
+    z-index: 1;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #72c27f;
+    clip-path: circle(100px at 90% -15%);
+    transition: 1s ease-out;
+    pointer-events: none;
+  }
+
+  .nav-list a {
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    gap: 0;
+    margin: 150px;
+  }
+
+  .hamburger {
+    position: absolute;
+    right: 40px;
+    bottom: 850px;
+  }
+
+  .nav-list a {
+    font-size: 25px;
+    opacity: 0;
+  }
+
+  .nav a:nth-child(1) a {
+    transition: 0.5s 0.2s;
+  }
+
+  .nav a:nth-child(2) a {
+    transition: 0.5s 0.4s;
+  }
+
+  .nav a:nth-child(3) a {
+    transition: 0.5s 0.6s;
+  }
+
+  /* Estilos ativos */
+
+  .nav.active {
+    clip-path: circle(1500px at 90% -15%);
+    pointer-events: all;
+  }
+
+  .nav.active .nav-list a {
+    opacity: 1;
+  }
+
+  .nav.active .hamburger {
+    position: fixed;
+    top: 26px;
+    right: 16px;
+    border-top-color: transparent;
+  }
+
+  .nav.active .hamburger::before {
+    transform: rotate(135deg);
+  }
+
+  .nav.active .hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  #area-lateral {
+    display: none;
+    float: none;
+  }
+  #area-postagens {
+    width: 90vw;
+    float: none;
+    margin-bottom: 30px;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+
+  #rodape {
+    width: 90vw;
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+
+}
